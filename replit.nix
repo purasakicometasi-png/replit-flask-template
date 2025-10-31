@@ -1,3 +1,7 @@
 { pkgs }: {
-  deps = [];
+  deps = [
+    pkgs.unzip
+    pkgs.wget
+    
+  ];
 }
